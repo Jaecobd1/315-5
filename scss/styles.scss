@@ -1,0 +1,42 @@
+@import './structure.scss';
+#app {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.game-holder {
+    width: 150px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.brief-rating {
+    font-size: 9px;
+    text-align: center;
+}
+
+.brief-des {
+    margin-bottom: 10px;
+}
+
+body {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 20px;
+        }
+    }
+}
