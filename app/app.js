@@ -81,27 +81,160 @@ var GAMES = [{
     }
 ];
 
+var ITEMS = [{
+        name: 'Tent, 6/8/10 Person 60 Sec Setup Family Camping Tent, Waterproof & Windproof Tent with Top Rainfly, Instant Cabin Tent, Upgraded Ventilation System, Orange',
+        price: 139.99,
+        desc: 'Waterproof Tent -PU taping for both rainfly seam and inner tent seam, PE Tube floor with welded corners, which keep the inside of the tent absolutely dry during heavy rain',
+        brand: 'Hitwby',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'tent1_150x150.jpg',
+        imgFull: 'tent1_300x300.jpg'
+    }, {
+        name: 'Double Camping Sleeping Pad, Inflatable Camping Pad Foot Press Ultralight 2 Person Camping Mat with Pillow for Camping Hiking Traveling Backpacking Tent',
+        price: 59.99,
+        desc: 'Self-inflating pad is up to 80.7"*53.2" when inflated, big enough for 2 people. 4" thickness keeps your body off the ground and ensures maximum comfort and warmth while sleeping outdoors. The air cells disperse pressure points, whether lying flat or on your side, providing better body support and feeling like sleeping at home.',
+        brand: 'Yuzonc',
+        rating: 4,
+        inStock: true,
+        imgLow: 'pad_150x150.jpg',
+        imgFull: 'pad_300x300.jpg'
+    }, {
+        name: 'Coleman Broadband Mesh Quad Camping Chair',
+        price: 15.29,
+        desc: 'Portable folding chair ideal for camping and backyard get togethers',
+        brand: '	Coleman',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'chair_150x150.jpg',
+        imgFull: 'chair_300x300.jpg'
+
+    },
+    {
+        name: 'Gas One GS-3400P Propane or Butane Stove Dual Fuel Stove Portable Camping Stove - Patent Pending - with Carrying Case Great for Emergency Preparedness Kit',
+        price: 33.25,
+        desc: 'Duel Fuel - Compatible With Both Butane (Fuel Not Included) And Propane Fuel (Fuel Not Included), Operates On A Single Butane Cartridge 8 Oz Or A Propane Cylinder 16.4 Oz , Propane Converter Regulator Included',
+        brand: 'Gas One',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'grill_150x150.jpg',
+        imgFull: 'grill_300x300.jpg'
+    }, {
+        name: 'oaskys Camping Sleeping Bag - 3 Season Warm & Cool Weather - Summer Spring Fall Lightweight Waterproof for Adults Kids - Camping Gear Equipment, Traveling, and Outdoors',
+        price: 24.99,
+        desc: 'USED FOR 3 SEASONS:Our Sleeping Bags can be used for 3 seasons.They are designed for 10~20 Degrees Celsius. Moreover, these bags also have a weather-resistant design to keep you warm even in extreme conditions and prevent you from any dampness - this is achieved through double-filled technology.our sleeping bags are designed to ensure that after a tiring day of trekking, hiking, travel or any other exploration you can get a good and relaxing night’s sleep.',
+        brand: 'Oaskys',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'sleepingbag_150x150.jpg',
+        imgFull: 'sleepingbag_300x300.jpg'
+    },
+    {
+        name: 'ATORPOK Camping Cot for Adults Comfortable, Tent Folding Cot for Sleeping, Lightweight Folding Bed with Carry Bag for Kids Supports 450 lbs, Office Nap and Beach Vocation',
+        price: 57.99,
+        desc: 'The portable cot can be folded and put into a carry bag, making it easy to take to your campsite and perfect for outdoor rest.',
+        brand: 'ATORPOK',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'cot_150x150.jpg',
+        imgFull: 'cot_300x300.jpg'
+    },
+    {
+        name: 'VILLEY Portable Camping Side Table, Ultralight Aluminum Folding Beach Table with Carry Bag for Outdoor Cooking, Picnic, Camp, Boat, Travel',
+        price: 22.99,
+        desc: 'Ultra-light for Easy Portability: Our folding camp table\'s top and frame are all made of aluminum, so it\'s lighter than another comparably-sized wooden camp table, only 2.05lb, light enough to carry anywhere. Folds into the included carry bag. This small foldable table can easily fit in the back of a car, RV, motorcycle, or backpack.',
+        brand: 'Villey',
+        rating: 0,
+        inStock: true,
+        imgLow: 'table_150x150.jpg',
+        imgFull: 'table_300x300.jpg'
+    },
+    {
+        name: 'Coleman WeatherMaster 6-Person Tent with Screen Room',
+        price: 167.99,
+        desc: 'Spacious 6-person tent has enough room for 2 queen-size airbeds.Hinged door for easy entry and exit. Angled window keeps the rain out when the windows are openEasy setup in about 20 minutes',
+        brand: 'Coleman',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'tent2_150x150.jpg',
+        imgFull: 'tent2_300x300.jpg'
+    },
+    {
+        name: 'Etekcity Camping Lantern Battery Powered LED for Power Outages, Emergency Light for Hurricane Supplies Survival Kits, Operated Lamp, Camping Gear Accessories Essentials, 2 Pack',
+        price: 14.44,
+        desc: 'Bright & Dimmable: Equipped with 30 LED bulbs; the collapsible lantern can get as bright as 140 lumens with a 360° lighting effect to keep the darkness away during storms, power outages, or camping trips',
+        brand: 'Etekcity',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'lantern_150x150.jpg',
+        imgFull: 'lantern_300x300.jpg'
+
+    },
+    {
+        name: 'Alocs Camping Cookware, Compact/Lightweight/Durable Camping Pots and Pans Set, Camping Cooking Set for Outdoor Backpacking Camping Hiking Picnic, Included Mesh Carry Bag',
+        price: 49.99,
+        desc: 'Eco-friendly & Healthy--This camping cookware is made of ultra-light hard alumina and food grade silicone material that meets European and American food safety standards, which is healthy and eco-friendly, high temperature resistant, scratch resistance, oxidation resistance',
+        brand: 'Alocs',
+        rating: 4.5,
+        inStock: true,
+        imgLow: 'cooking_150x150.jpg',
+        imgFull: 'cooking_300x300.jpg'
+    }
+]
+
 
 $(document).ready(function() {
     loadData();
 })
 
+
+function initListeners() {
+    $(".game-holder").click(function(e) {
+        let itemIndex = e.currentTarget.id;
+
+        $("#app").html(`<div class="game-full">
+        <div class="title">
+            ${ITEMS[itemIndex].name}
+        </div>
+        <img src="images/${ITEMS[itemIndex].imgFull}" height="900px" alt="">
+        <div class="description-rating">
+            <span><p>${ITEMS[itemIndex].des}</p></span>
+            <span>Rating: ${ITEMS[itemIndex].rating}</span>
+        </div>
+        <div class="close">CLOSE</div>
+    </div>
+    `);
+
+        addCloseListener();
+    })
+
+}
+
+function addCloseListener() {
+    $(".close").click(function() {
+        $("#app").html("");
+        loadData();
+    })
+}
+
 function loadData() {
-    $.each(GAMES, function(index, game) {
+    $.each(ITEMS, function(index, item) {
         $("#app").append(` 
         <div class="game-holder" id="${index}">
-            <h4>${game.gameTitle}</h4>
+            <h4>${item.name}</h4>
             <div class="game-image">
-                <img src="images/${game.gameThumbImg}" alt="">
+                <img src="images/${item.imgLow}" height="150px" width="150px" alt="">
             </div>
             <div class="brief-rating">
                 <div class="brief-des">
-                    ${game.gameBriefDescription}
+                    ${item.desc}
                 </div>
-                <div class="rating">Rating: ${game.gameRating}</div>
+                <div class="rating">Rating: ${item.rating}</div>
                 </div>
         </div>`);
-    })
+    });
+    initListeners();
+
 
     // for (let i = 0; i < GAMES.length; i++) {
     //     console.log(GAMES[i].gameTitle);

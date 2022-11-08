@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 200px;
 }
 
 .game-holder {
@@ -13,10 +14,11 @@
     border-bottom: solid 1px #000;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 800px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .brief-rating {
@@ -38,5 +40,28 @@ body {
             font-size: 50px;
             margin-top: 20px;
         }
+    }
+}
+
+.close {
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.game-full {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+        text-align: center;
+        font-size: 24px;
+    }
+    img {
+        width: 80vw;
+    }
+    .description-rating {
+        width: 75vw;
     }
 }
