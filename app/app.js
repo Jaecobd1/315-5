@@ -198,8 +198,9 @@ function initListeners() {
         </div>
         <img src="images/${ITEMS[itemIndex].imgFull}" height="900px" alt="">
         <div class="description-rating">
-            <span><p>${ITEMS[itemIndex].des}</p></span>
+            <span><p>${ITEMS[itemIndex].desc}</p></span>
             <span>Rating: ${ITEMS[itemIndex].rating}</span>
+             <span>Price: $ ${ITEMS[itemIndex].price}</span>
         </div>
         <div class="close">CLOSE</div>
     </div>
@@ -230,6 +231,7 @@ function loadData() {
                     ${item.desc}
                 </div>
                 <div class="rating">Rating: ${item.rating}</div>
+                
                 </div>
         </div>`);
     });
