@@ -192,7 +192,8 @@ body .container h1 {
   font-size: 24px;
 }
 .game-full img {
-  width: 80vw;
+  width: 50vw;
+  height: 50vw;
 }
 .game-full .description-rating {
   width: 75vw;
